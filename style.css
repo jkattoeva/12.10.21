@@ -50,4 +50,44 @@ div {
    outline: 50px dashed gold;
    margin-bottom: -60px;
 }
-
+#flower {
+  color: rgb(24, 7, 10);
+  background-color: rgb(170, 94, 94);
+  border: 2px solid rgb(170, 94, 94);
+  margin: 10px;
+  width: 1px ;
+  border-radius: 50px;
+  
+}
+#flower-2 {
+  color: rgb(24, 7, 10);
+  background-color: rgb(170, 94, 94);
+  border: 2px solid rgb(170, 94, 94);
+  width: 1px;
+  margin: -20px;
+  border-radius: 50px;
+}
+#flower-3 {
+  background-color: rgb(170, 94, 94);
+  border: 2px solid rgb(170, 94, 94);
+  width: 1px;
+  margin: 20px;
+  border-radius: 50px;
+  margin-top: -1px;
+}
+#flower-4 {
+  background-color: rgb(170, 94, 94);
+  border: 2px solid rgb(170, 94, 94);
+  width: 1px;
+  margin: 20px;
+  border-radius: 50px;
+  margin-top: -20px;
+}
+.wrapper {
+  height: 340px;
+  width: 300px;
+  position: relative;
+  margin: 20px auto;
+  z-index: 2;
+  filter: drop-shadow(0 0 6px #aaa);
+}
