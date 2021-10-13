@@ -1,0 +1,93 @@
+.petal {
+  position: relative;
+  width: 5em;
+  height: 5em;
+  margin: 4em 9em;
+  background: rgb(252, 2, 2);
+  border-radius: 100% 0;
+  box-shadow: -6em 6em red;
+  }
+
+.petal:before,
+.petal:after {
+  content: "";
+  display: block;
+  width: 5em;
+  height: 5em
+  }
+
+.petal:before {
+  position: absolute;
+  left: -12em;
+  top: -2em;
+  margin: 2em 6em;
+  background: rgb(12, 224, 161);
+  border-radius: 0 100%;
+  box-shadow: 6em 6em rgb(63, 17, 26);
+  transform: rotate(-30deg);
+  transform-origin: 5.5em 5.5em;
+  }
+
+.petal:after {
+  position: absolute;
+  left: -12em;
+  top: -2em;
+  margin: 2em 6em;
+  background: crimson;
+  border-radius: 0 100%;
+  box-shadow: 6em 6em crimson;
+  transform: rotate(30deg);
+  transform-origin: 5.5em 5.5em
+  }
+  #red {
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+    font-weight: 100;
+  }
+  #blue {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-weight: 200;
+    font-variant: ;
+  }
+  #purple {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    font-weight: 300;
+  }
+  #silver {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+  }
+  #white {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+  }
+  #black {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+  }
+  #green {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 700;
+  }
+  #gold {
+    font-family: sans-serif;
+    font-weight: 800;
+  }
+  #tomato {
+    font-family: serif;
+    font-weight: 900;
+  }
+  #violet {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  html {
+  font-family: 'Roboto', sans-serif;
+  }
+  h1,h2 {
+font-family: 'Roboto Slab', serif;
+  }
+  h1 {
+    font-size: 2.5em;
+  }
